@@ -1,0 +1,254 @@
+.logoPrincipal{
+    width: 119px;
+    margin-left: -30px;
+}
+header{
+    width: 100px;
+    height: 50px;
+}
+
+#navHome{
+    display: flex;   
+    width: 100%;
+    background-color:rgb(214, 214, 212); 
+    justify-content: space-around;
+}
+
+.lista{
+    display: flex;
+    
+}
+.lista > li {
+    
+    list-style: none;
+    
+}
+
+.lista > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    font-size: 15px;
+    margin: 70px;
+    
+}
+
+#root{
+    margin: 0px;
+    display: flex;
+    width: 20%;
+    /*justify-content: space-between; */
+    flex-direction:column;
+}
+
+.buscador{
+    margin: 15px;
+}
+
+#root{
+    padding: 33px;
+    margin: -120px;
+    
+}
+
+
+#root input{
+    width: 0px;
+    height: 40px;
+    border:  1px solid silver;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 30px;
+    color: black;
+}
+#root{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 280px;
+    line-height: 15px;
+    text-align: center;
+    color: rgb(5, 4, 4);
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.btn{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: rgb(5, 4, 4);
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#root:hover input{
+    width: 120px;
+    padding: 0px;
+    margin-left: -110px;
+}
+
+
+/* */
+
+
+header ul{
+    float: right;
+    margin-right: 20px;
+}
+
+header ul li{
+    display: inline-block;
+    height: 80px;
+    margin: 0 5px;
+}
+
+header ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 7px 50px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active,li a:hover{
+    background-color: rgb(138, 43, 226);
+    transition: .5s;
+}
+
+/*Desde aca empieza el Body */
+
+body{
+    background-color: rgb(58, 59, 58);
+}
+
+.envio{
+    background-color: black;
+    color: rgba(236, 221, 11, 0.968);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+
+.carrusel{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border:  1px ;
+    padding: 20px 0px;
+}
+.carrusel-item{
+    width: 300px;
+    height: 400px;
+    outline:  2px solid black;  /*esto es fondo negro */
+}
+.carrusel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover{
+    transform:  scale(1.2);
+}
+
+.sugerencia{
+    color: rgba(236, 221, 11, 0.968);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+.container-3{
+    display: flex;
+    background-color: rgb(58, 59, 59);
+    
+}
+.card-principal{
+    width: 33%;
+    box-shadow: 0 4px 8px 0 rgba(13, 7, 7, 0.2); 
+    margin-left: 0px;
+    max-width: 400px; 
+    text-align: center; 
+    font-family: arial;
+    color: rgb(249, 247, 243);
+}
+
+.card-titulo{
+    color: rgb(246, 196, 79);
+}
+
+.submenu{   /*Esto es submenu categorias */
+    display: flex;
+    justify-content: center;
+}
+.submenu > .btn-categoria {
+text-decoration: none;
+color: rgb(246, 246, 240);
+margin: 10px;
+
+}
+.submenu > btn-categoria:hover {
+    background-color: rgb(138, 43, 226);
+}
+
+#contenedorProductos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+    
+    .card{
+        margin: 10px;
+        width: 48%;
+        border: 1px solid red;
+    }
+#contenedorProductos{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    border: 1px solid rgb(98, 93, 93);
+}
+.card>img {
+    display: flex;
+    width: 100%;
+    height: 72%;
+}
+.card>span{
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+    
+}
+
+.card>button {
+    display:flex;
+    margin-top: 10px;
+}
+.card>h3 {
+    color: rgb(246, 196, 79);
+    background-color: black;
+}
+
