@@ -1,0 +1,17 @@
+[
+    {"id": 1, "nombre": "camiseta Boca juniors", "categoria": "remeras", "stock": "3","img":"./multimedia/productos/remera boca.jpg", "precio": "2500"},
+    {"id": 2, "nombre": "camiseta River plate", "categoria": "remeras", "stock": "5","img":"./multimedia/productos/remera river1.jpg", "precio": "2500"},
+    {"id": 3, "nombre": "camiseta San lorenzo", "categoria": "remeras", "stock": "10","img":"./multimedia/productos/remera sanlorenzo.jpg", "precio": "2000"},
+    {"id": 4, "nombre": "camiseta Velez", "categoria": "remeras", "stock": "20","img":"./multimedia/productos/remera velez.jpg", "precio": "2000"},
+    {"id": 5, "nombre": "camiseta tigre", "categoria": "remeras", "stock": "50","img":"./multimedia/productos/remera tigre.jpg", "precio": "2000"},
+    {"id": 6, "nombre": "camiseta gimnasia", "categoria": "remeras", "stock": "40","img":"./multimedia/productos/remera gimnasia.jpg", "precio": "2000"},
+    {"id": 7, "nombre": "camiseta estudiantes", "categoria": "remeras", "stock": "30","img":"./multimedia/productos/remera estudiantes.jpg", "precio": "1500"},
+    {"id": 8, "nombre": "camiseta huracan", "categoria": "remeras", "stock": "20","img":"./multimedia/productos/remera huracan1.jpg", "precio": "1500"},
+    {"id": 9, "nombre": "camiseta patronato", "categoria": "remeras", "stock": "40","img":"./multimedia/productos/patronato.jpg", "precio": "1500"},
+    {"id": 15, "nombre": "short boca", "categoria": "short", "stock": "20","img":"./multimedia/productos/short boca.jpg", "precio": "500"},
+    {"id": 10, "nombre": "short river", "categoria": "short", "stock": "30","img":"./multimedia/productos/short river.jpg", "precio": "500"},
+    {"id": 11, "nombre": "short velez", "categoria": "short", "stock": "20","img":"./multimedia/productos/short velez.jpg", "precio": "500"},
+    {"id": 12, "nombre": "camperas river", "categoria": "camperas", "stock": "10","img":"./multimedia/productos/campera river.jpg", "precio": "1500"},
+    {"id": 13, "nombre": "camperas boca", "categoria": "camperas", "stock": "20","img":"./multimedia/productos/campera boca.jpg", "precio": "1500"},
+    {"id": 14, "nombre": "camperas velez", "categoria": "camperas", "stock": "40","img":"./multimedia/productos/campera velez.jpg", "precio": "1500"}
+    ]
